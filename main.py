@@ -18,8 +18,8 @@ import base64
 st.set_page_config(page_title="Wiki Survey", layout="wide", page_icon="🗳️")
 
 # === Configuration MongoDB ===
-MONGO_URI = "mongodb://localhost:27017/"
-DB_NAME = "Africa"
+MONGO_URI = "mongodb://mongo:TGOvbQpjrkkPoveRAbffojCnJuaNzSZv@nozomi.proxy.rlwy.net:18145"
+DB_NAME = "Afrique"
 
 # --- Connexion à MongoDB ---
 @st.cache_resource
