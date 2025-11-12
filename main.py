@@ -18,7 +18,7 @@ import base64
 st.set_page_config(page_title="Wiki Survey", layout="wide", page_icon="🗳️")
 
 # === Configuration MongoDB ===
-MONGO_URI = "mongodb://mongo:TGOvbQpjrkkPoveRAbffojCnJuaNzSZv@nozomi.proxy.rlwy.net:18145"
+MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = "Afrique"
 
 # --- Connexion à MongoDB ---
